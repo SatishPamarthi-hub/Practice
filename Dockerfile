@@ -1,5 +1,5 @@
 FROM nginx
-COPY cars.html /usr/share/nginx/html/cars.html
+COPY index.html /usr/share/nginx/html/index.html
 EXPOSE 80
 MAINTAINER satish
 LABEL My Cars
