@@ -1,0 +1,6 @@
+FROM nginx
+EXPOSE 80
+MAINTAINER satish
+LABEL My Cars
+WORKDIR /satish/cars
+ENV CARS=BIKES
